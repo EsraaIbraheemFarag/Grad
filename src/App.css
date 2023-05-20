@@ -1,0 +1,62 @@
+body{
+  display: block !important;
+}
+.navbar{
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+  z-index: 999;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+.logo{
+  width: 100%;
+}
+.banner{
+  width: 100%;
+  height: 363.99px;
+}
+.title1{
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 30px;
+  text-align: center;
+}
+@font-face {
+  font-family: "My Custom Font";
+  src: url(https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap) format("truetype");
+}
+.customfont { 
+  font-family: "My Custom Font", Verdana, Tahoma;
+}
+.card{
+  border-radius: 16px;
+  margin: 2rem;
+  display: inline-block;
+  width: 350px;
+}
+.title{
+  margin-top: 1rem;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+.paragraph{
+  font-family: 'Outfit';
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 3px;
+  color: rgb(94, 94, 94);
+}
+.button{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+*{
+  font-family: "My Custom Font", Verdana, Tahoma;
+}
